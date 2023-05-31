@@ -1,6 +1,6 @@
 {
   "name": "@mogi/react-native-payumoney",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React native wrapper for payumoney sdk",
   "homepage": "https://github.com/karan-singare/react-native-payumoney#readme",
   "main": "lib/index.js",
