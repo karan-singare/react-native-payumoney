@@ -1,4 +1,4 @@
-[Note]: Archiving in favour of official sdk and lack of time to maintain, see [#63](https://github.com/Suraj-Tiwari/react-native-payumoney/issues/63#issuecomment-1166210031)
+[Note]: Archiving in favour of official sdk and lack of time to maintain, see [#63](https://github.com/karan-singare/react-native-payumoney/issues/63#issuecomment-1166210031)
 
 ---
 
@@ -14,13 +14,13 @@ ___
 Install package:
 
 ```bash
-$ npm i react-native-payumoney --save
+$ npm i @mogi/react-native-payumoney --save
 ```
 
 ### Only For RN <= 0.59
 
 ```bash
-$ react-native link react-native-payumoney
+$ react-native link @mogi/react-native-payumoney
 ```
 
 Add following line in Podfile
@@ -144,13 +144,13 @@ Edit `android/app/proguard-rules.pro` and add
 ```
 -keep class com.surajtiwari.reactnativepayumoney.** { *; }
 ```
-see issue [#43](https://github.com/Suraj-Tiwari/react-native-payumoney/issues/43)
+see issue [#43](https://github.com/karan-singare/react-native-payumoney/issues/43)
 
 ## Could not find com.payumoney.sdkui:plug-n-play:1.6.1.
 
 Add `jcenter()` in your android/build.gradle
 
-see [example](https://github.com/Suraj-Tiwari/react-native-payumoney/blob/c366d8ce6db21ddf9c0f62ff95082a2659126cd2/example/android/build.gradle#L35)
+see [example](https://github.com/karan-singare/react-native-payumoney/blob/c366d8ce6db21ddf9c0f62ff95082a2659126cd2/example/android/build.gradle#L35)
 
 ## Running example
 

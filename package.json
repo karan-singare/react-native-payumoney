@@ -1,11 +1,11 @@
 {
-  "name": "react-native-payumoney",
+  "name": "@mogi/react-native-payumoney",
   "version": "1.0.2",
   "description": "React native wrapper for payumoney sdk",
-  "homepage": "https://github.com/Suraj-Tiwari/react-native-payumoney#readme",
+  "homepage": "https://github.com/karan-singare/react-native-payumoney#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "Suraj Tiwari <surajtiwari020@gmail.com>",
+  "author": "Karan Singare <karansingare@gmail.com>",
   "license": "MIT",
   "files": [
     "android",
@@ -64,5 +64,9 @@
   },
   "dependencies": {
     "js-sha512": "^0.8.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   }
 }
